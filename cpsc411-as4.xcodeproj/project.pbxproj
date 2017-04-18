@@ -12,6 +12,8 @@
 		63479BBF1E9C791300B05DB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63479BBD1E9C791300B05DB4 /* Main.storyboard */; };
 		63479BC11E9C791300B05DB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63479BC01E9C791300B05DB4 /* Assets.xcassets */; };
 		63479BC41E9C791300B05DB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63479BC21E9C791300B05DB4 /* LaunchScreen.storyboard */; };
+		637C3AB61EA5B46700FE9A39 /* 04-CurrencyConverterYahooQueryLanguage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 637C3AB51EA5B46700FE9A39 /* 04-CurrencyConverterYahooQueryLanguage.pdf */; };
+		637C3AB81EA5BDFF00FE9A39 /* YQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637C3AB71EA5BDFF00FE9A39 /* YQL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		63479BC01E9C791300B05DB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63479BC31E9C791300B05DB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63479BC51E9C791300B05DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		637C3AB51EA5B46700FE9A39 /* 04-CurrencyConverterYahooQueryLanguage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "04-CurrencyConverterYahooQueryLanguage.pdf"; sourceTree = "<group>"; };
+		637C3AB71EA5BDFF00FE9A39 /* YQL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YQL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		63479BB81E9C791300B05DB4 /* cpsc411-as4 */ = {
 			isa = PBXGroup;
 			children = (
+				637C3AB71EA5BDFF00FE9A39 /* YQL.swift */,
+				637C3AB51EA5B46700FE9A39 /* 04-CurrencyConverterYahooQueryLanguage.pdf */,
 				63479BB91E9C791300B05DB4 /* AppDelegate.swift */,
 				63479BBB1E9C791300B05DB4 /* ViewController.swift */,
 				63479BBD1E9C791300B05DB4 /* Main.storyboard */,
@@ -123,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				637C3AB61EA5B46700FE9A39 /* 04-CurrencyConverterYahooQueryLanguage.pdf in Resources */,
 				63479BC41E9C791300B05DB4 /* LaunchScreen.storyboard in Resources */,
 				63479BC11E9C791300B05DB4 /* Assets.xcassets in Resources */,
 				63479BBF1E9C791300B05DB4 /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			files = (
 				63479BBC1E9C791300B05DB4 /* ViewController.swift in Sources */,
 				63479BBA1E9C791300B05DB4 /* AppDelegate.swift in Sources */,
+				637C3AB81EA5BDFF00FE9A39 /* YQL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +307,7 @@
 				63479BCA1E9C791300B05DB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
