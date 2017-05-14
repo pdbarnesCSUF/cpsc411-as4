@@ -39,9 +39,8 @@ class FavViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    //just a func that does it all, not as efficient but faster
-    @IBAction private func updateCalc()
-    {
+    
+    override func viewWillDisappear(_ animated: Bool) {
         CalcData.shared.booleanArr[0] = usdSwitch.isOn
         CalcData.shared.booleanArr[1] = eurSwitch.isOn
         CalcData.shared.booleanArr[2] = gbpSwitch.isOn
@@ -53,14 +52,5 @@ class FavViewController: UIViewController {
         CalcData.shared.booleanArr[8] = twdSwitch.isOn
         CalcData.shared.booleanArr[9] = cnySwitch.isOn
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

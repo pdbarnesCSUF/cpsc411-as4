@@ -16,9 +16,10 @@ class CalcData
     {
         currencyArr = ["USD","EUR","GBP","INR","AUD","CAD","SGD","JPY","TWD","CNY"]
         booleanArr = [true,true,true,true,true,true,true,true,true,true]
+        countnum = 0
     }
     //favs
     public var currencyArr: [String]
     public var booleanArr: [Bool]
-    
+    public var countnum:Int //debug int
 }
