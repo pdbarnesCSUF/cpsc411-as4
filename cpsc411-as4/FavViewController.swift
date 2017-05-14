@@ -51,6 +51,8 @@ class FavViewController: UIViewController {
         CalcData.shared.booleanArr[7] = jpySwitch.isOn
         CalcData.shared.booleanArr[8] = twdSwitch.isOn
         CalcData.shared.booleanArr[9] = cnySwitch.isOn
+        //update activearr
+        CalcData.shared.updateActive()
     }
 
 }
