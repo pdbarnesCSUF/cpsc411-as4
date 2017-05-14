@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6307DD371EC7EE3F00E70861 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6307DD361EC7EE3F00E70861 /* Model.swift */; };
+		6307DD391EC7FD8700E70861 /* FavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6307DD381EC7FD8700E70861 /* FavViewController.swift */; };
 		63479BBA1E9C791300B05DB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63479BB91E9C791300B05DB4 /* AppDelegate.swift */; };
 		63479BBC1E9C791300B05DB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63479BBB1E9C791300B05DB4 /* ViewController.swift */; };
 		63479BBF1E9C791300B05DB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63479BBD1E9C791300B05DB4 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6307DD361EC7EE3F00E70861 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		6307DD381EC7FD8700E70861 /* FavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavViewController.swift; sourceTree = "<group>"; };
 		63479BB61E9C791300B05DB4 /* cpsc411-as4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cpsc411-as4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63479BB91E9C791300B05DB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63479BBB1E9C791300B05DB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +66,9 @@
 				637C3AB51EA5B46700FE9A39 /* 04-CurrencyConverterYahooQueryLanguage.pdf */,
 				63479BB91E9C791300B05DB4 /* AppDelegate.swift */,
 				63479BBB1E9C791300B05DB4 /* ViewController.swift */,
+				6307DD361EC7EE3F00E70861 /* Model.swift */,
 				63479BBD1E9C791300B05DB4 /* Main.storyboard */,
+				6307DD381EC7FD8700E70861 /* FavViewController.swift */,
 				63479BC01E9C791300B05DB4 /* Assets.xcassets */,
 				63479BC21E9C791300B05DB4 /* LaunchScreen.storyboard */,
 				63479BC51E9C791300B05DB4 /* Info.plist */,
@@ -146,6 +152,8 @@
 				63479BBC1E9C791300B05DB4 /* ViewController.swift in Sources */,
 				63479BBA1E9C791300B05DB4 /* AppDelegate.swift in Sources */,
 				637C3AB81EA5BDFF00FE9A39 /* YQL.swift in Sources */,
+				6307DD391EC7FD8700E70861 /* FavViewController.swift in Sources */,
+				6307DD371EC7EE3F00E70861 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
