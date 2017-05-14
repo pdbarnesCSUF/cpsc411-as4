@@ -218,6 +218,18 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="audSwitch" destination="ATS-LZ-yyE" id="geD-UU-5LJ"/>
+                        <outlet property="cadSwitch" destination="ewT-vb-Ln3" id="LQx-7O-aA6"/>
+                        <outlet property="cnySwitch" destination="t4g-le-591" id="5jw-jJ-l1r"/>
+                        <outlet property="eurSwitch" destination="Njl-z5-lQJ" id="2Xw-yH-PrN"/>
+                        <outlet property="gbpSwitch" destination="seG-VV-JKT" id="H7M-8S-L5X"/>
+                        <outlet property="inrSwitch" destination="tcu-5z-nUg" id="ObD-I3-r74"/>
+                        <outlet property="jpySwitch" destination="WzV-jw-1QT" id="bxh-2H-atb"/>
+                        <outlet property="sgdSwitch" destination="P3Y-jw-NEm" id="J2t-KC-BSv"/>
+                        <outlet property="twdSwitch" destination="JmA-kp-GgH" id="113-he-hdI"/>
+                        <outlet property="usdSwitch" destination="53N-53-VaM" id="SJa-ST-dQ0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lys-u5-ZMY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
