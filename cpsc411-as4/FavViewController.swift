@@ -39,9 +39,19 @@ class FavViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    private func updateCalc()
+    //just a func that does it all, not as efficient but faster
+    @IBAction private func updateCalc()
     {
-        
+        CalcData.shared.booleanArr[0] = usdSwitch.isOn
+        CalcData.shared.booleanArr[1] = eurSwitch.isOn
+        CalcData.shared.booleanArr[2] = gbpSwitch.isOn
+        CalcData.shared.booleanArr[3] = inrSwitch.isOn
+        CalcData.shared.booleanArr[4] = audSwitch.isOn
+        CalcData.shared.booleanArr[5] = cadSwitch.isOn
+        CalcData.shared.booleanArr[6] = sgdSwitch.isOn
+        CalcData.shared.booleanArr[7] = jpySwitch.isOn
+        CalcData.shared.booleanArr[8] = twdSwitch.isOn
+        CalcData.shared.booleanArr[9] = cnySwitch.isOn
     }
     /*
     // MARK: - Navigation
